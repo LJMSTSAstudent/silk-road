@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "MyFont";
+  src: url("./assets/fonts/LibreCaslonCondensed-VariableFont_wght.ttf") format("truetype");
+  font-weight: 400 700;
+  font-style: normal;
+}
+
+@theme {
+  --font-silk: "MyFont", sans-serif;
+  
+ 
+  --color-silk-green: #173d32;
+  --color-silk-dark: #102c25;
+  --color-silk-gold: #c7a15a;
+  --color-silk-cream: #f5efe2;
+  --color-silk-paper: #ebe1cd;
+  --color-silk-brown: #6b4b32;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f5efe2;
+  color: #173d32;
+  font-family: Arial, sans-serif;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
