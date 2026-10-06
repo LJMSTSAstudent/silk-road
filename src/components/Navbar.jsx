@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
-import camel from "../assets/camel.png";
+import camel from "../assets/Camel.png";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
